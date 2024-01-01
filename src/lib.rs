@@ -164,6 +164,9 @@ use prelude::v1::*;
 #[macro_use]
 mod internal_macros;
 
+#[macro_use]
+pub mod num;
+
 /* The corex prelude, builds on core */
 
 pub mod prelude;
